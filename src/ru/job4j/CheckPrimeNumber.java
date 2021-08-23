@@ -1,7 +1,7 @@
 package ru.job4j;
 
 public class CheckPrimeNumber {
-    @SuppressWarnings("checkstyle:NeedBraces")
+
     public static boolean check(int number) {
         boolean prime = true;
 
