@@ -8,8 +8,8 @@ public class ArrayLoop {
             array[i] = i * 2 + 3;
         }
 
-        for (int i = 0; i < array.length; i += 1) {
-            System.out.println(array[i]);
+        for (int el : array) {
+            System.out.println(el);
         }
     }
 }
